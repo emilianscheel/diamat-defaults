@@ -1,0 +1,231 @@
+[{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68545a"
+  },
+  "slug": "admin",
+  "title": "Administrator",
+  "type": "basic",
+  "subgroups": [
+    "manage_articles",
+    "manage_users",
+    "delete_users",
+    "manage_groups"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68545b"
+  },
+  "slug": "manage_articles",
+  "type": "group",
+  "title": "Begriffe verwalten",
+  "subgroups": [
+    "delete_articles",
+    "create_articles",
+    "edit_users",
+    "view_articles"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68545c"
+  },
+  "slug": "manage_users",
+  "type": "group",
+  "title": "Nutzer verwalten",
+  "subgroups": [
+    "create_users",
+    "edit_users",
+    "delete_users",
+    "view_users"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68545d"
+  },
+  "slug": "manage_suggestions",
+  "type": "group",
+  "title": "Vorschläge verwalten",
+  "subgroups": [
+    "create_suggestions",
+    "edit_suggestions",
+    "delete_suggestions",
+    "view_suggestions"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68545e"
+  },
+  "slug": "manage_groups",
+  "type": "group",
+  "title": "Berechtigungsgruppen verwalten",
+  "subgroups": [
+    "create_groups",
+    "edit_groups",
+    "delete_groups",
+    "view_groups"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68545f"
+  },
+  "slug": "manage_sources",
+  "type": "group",
+  "title": "Quellen verwalten",
+  "subgroups": [
+    "create_sources",
+    "edit_sources",
+    "delete_sources",
+    "view_sources"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685460"
+  },
+  "slug": "create_users",
+  "title": "Nutzer erstellen",
+  "type": "basic",
+  "subgroups": [
+    "view_users"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685461"
+  },
+  "slug": "delete_users",
+  "title": "Nutzer löschen",
+  "type": "basic",
+  "subgroups": [
+    "view_users"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685462"
+  },
+  "slug": "edit_users",
+  "title": "Nutzer bearbeiten",
+  "type": "basic",
+  "subgroups": [
+    "view_users"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685463"
+  },
+  "slug": "view_users",
+  "title": "Nutzer ansehen",
+  "type": "basic",
+  "subgroups": []
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685464"
+  },
+  "slug": "create_articles",
+  "title": "Begriffe erstellen",
+  "type": "basic",
+  "subgroups": [
+    "view_articles"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685465"
+  },
+  "slug": "delete_articles",
+  "title": "Begriffe löschen",
+  "type": "basic",
+  "subgroups": [
+    "view_articles"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685466"
+  },
+  "slug": "edit_articles",
+  "title": "Begriffe bearbeiten",
+  "type": "basic",
+  "subgroups": [
+    "view_articles"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685467"
+  },
+  "slug": "view_articles",
+  "title": "Begriffe ansehen",
+  "type": "basic",
+  "subgroups": []
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685468"
+  },
+  "slug": "create_groups",
+  "title": "Berechtigungsgruppen erstellen",
+  "type": "basic",
+  "subgroups": [
+    "view_groups"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd685469"
+  },
+  "slug": "delete_groups",
+  "title": "Berechtigungsgruppen löschen",
+  "type": "basic",
+  "subgroups": [
+    "view_groups"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68546a"
+  },
+  "slug": "edit_groups",
+  "title": "Berechtigungsgruppen bearbeiten",
+  "type": "basic",
+  "subgroups": [
+    "view_groups"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68546b"
+  },
+  "slug": "view_groups",
+  "title": "Berechtigungsgruppen ansehen",
+  "type": "basic",
+  "subgroups": []
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68546c"
+  },
+  "slug": "create_sources",
+  "title": "Quellen erstellen",
+  "type": "basic",
+  "subgroups": [
+    "view_sources"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68546d"
+  },
+  "slug": "delete_sources",
+  "title": "Quellen löschen",
+  "type": "basic",
+  "subgroups": [
+    "view_sources"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68546e"
+  },
+  "slug": "edit_sources",
+  "title": "Quellen bearbeiten",
+  "type": "basic",
+  "subgroups": [
+    "view_sources"
+  ]
+},{
+  "_id": {
+    "$oid": "62222745b96db4f3fd68546f"
+  },
+  "slug": "view_sources",
+  "title": "Quellen ansehen",
+  "type": "basic",
+  "subgroups": []
+}]

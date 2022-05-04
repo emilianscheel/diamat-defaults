@@ -1,0 +1,20 @@
+[
+    {
+        "_id": {
+            "$oid": "622712f53c7631f78daaca8b"
+        },
+        "id": "c0f8f4f0-1eab-4294-bcf2-dc94286be262",
+        "mail": "admin@dia-mat.de",
+        "created_at": 1646727925552,
+        "password": "$2b$10$BPfz/NS0hf2WtyJPko5v/uCEiAqZkus1W/pfu8FUw1uXdSiSA/G96",
+        "username": "admin",
+        "verify_token": null,
+        "reset_token": null,
+        "is_verified": true,
+        "groups": [
+            "admin"
+        ],
+        "articles": [],
+        "favorites": []
+    }
+]

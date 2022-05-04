@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6225efb7abef40803e1706b3"
+  },
+  "id": "c1d10a0f-e0e8-45f0-a48b-58959e893b14",
+  "title": "Welche Vorraussetzungen muss ein Passwort erfüllen?",
+  "description": "",
+  "steps": [
+    {
+      "html": "mind. 1 Groß bzw. Kleinbuchstabe"
+    },
+    {
+      "html": "mind. 1 Zahl"
+    },
+    {
+      "html": "mind. 8 Zeichen insgesamt"
+    }
+  ]
+}]
