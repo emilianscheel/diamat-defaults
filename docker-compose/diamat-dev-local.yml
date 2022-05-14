@@ -1,0 +1,52 @@
+version: "3"
+
+
+networks:
+  diamat-network:
+    driver: bridge
+
+services:
+
+
+  # MongoDB instance for Dia-Mat
+  mongodb:
+    image: 'mongo:latest'
+    container_name: 'diamat-mongodb'
+    environment:
+      - MONGO_INITDB_DATABASE=diamat-db
+      - MONGO_INITDB_ROOT_USERNAME=diamat-user
+      - MONGO_INITDB_ROOT_PASSWORD=eU8ypSJaHVdph66H
+    volumes:
+      - '~/.diamat/1/mongodb/:/data/db/'
+    networks:
+      - diamat-network
+    ports:
+      - '3201:27017'
+
+
+
+
+  # Dia-Mat starts in development mode with local directory as source code
+  diamat-dev-local:
+    container_name: 'diamat-dev-local'
+    depends_on:
+      - mongodb
+    build: 
+      context: ../
+      dockerfile: Dockerfile
+    environment:
+      - MONGODB_URL=mongodb://diamat-user:eU8ypSJaHVdph66H@host.docker.internal:3201
+      - MONGODB_DB=diamat-db
+    env_file:
+      - '../.env.local'
+      - '../.env.development.local'
+    volumes:
+      - '../:/app'
+    networks:
+      - diamat-network
+    ports:
+      - '3000:3000'
+    command: bash -c "
+        npm run initalize-mongodb
+        && npm run dev
+      "

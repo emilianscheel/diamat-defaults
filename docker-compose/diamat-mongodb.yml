@@ -1,0 +1,17 @@
+version: "3"
+services:
+
+  # MongoDB instance for Dia-Mat
+  mongodb:
+    image: 'mongo:latest'
+    container_name: 'diamat-mongodb'
+    environment:
+      - MONGO_INITDB_DATABASE=diamat-db
+      - MONGO_INITDB_ROOT_USERNAME=diamat-user
+      - MONGO_INITDB_ROOT_PASSWORD=eU8ypSJaHVdph66H
+    volumes:
+      - '~/.diamat/1/mongodb/:/data/db/'
+      - '~/.diamat/1/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js'
+      - '~/.diamat/1/data/:/docker-entrypoint-initdb.d/data/'
+    ports:
+      - '3201:27017'
