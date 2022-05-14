@@ -1,11 +1,13 @@
-mongo -- "$MONGO_INITDB_DATABASE" <<EOF
+mongo -- "$MONGO_INITDB_DATABASE" -u "$MONGO_INITDB_ROOT_USERNAME" -p "$MONGO_INITDB_ROOT_PASSWORD" <<EOF
   db.createUser({
     user: "$MONGO_USERNAME",
     pwd: "$MONGO_PASSWORD",
     roles: [
       { role: 'readWrite', db: "$MONGO_INITDB_DATABASE" }
     ]
-  })
+  });
+
+  use diamat-db;
 
   db.createCollection('begriffe', { capped: false });
   db.createCollection('gruppen', { capped: false });
