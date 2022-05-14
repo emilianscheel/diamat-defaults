@@ -7,8 +7,6 @@ services:
     container_name: 'diamat-mongodb'
     environment:
       - MONGO_INITDB_DATABASE=diamat-db
-      - MONGO_INITDB_ROOT_USERNAME=diamat-admin
-      - MONGO_INITDB_ROOT_PASSWORD=eU8ypSJaHVdph66H
       - MONGO_USERNAME=diamat-user
       - MONGO_PASSWORD=KfvzCbQS9hGkrkJm
     volumes:
