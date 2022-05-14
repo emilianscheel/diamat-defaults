@@ -1,33 +1,45 @@
-mongo -- "$MONGO_INITDB_DATABASE" -u "$MONGO_INITDB_ROOT_USERNAME" -p "$MONGO_INITDB_ROOT_PASSWORD" <<EOF
-  db.createUser({
-    user: "$MONGO_USERNAME",
-    pwd: "$MONGO_PASSWORD",
-    roles: [
-      { role: 'readWrite', db: "$MONGO_INITDB_DATABASE" }
-    ]
-  });
+#!/bin/bash
 
-  use diamat-db;
+echo "########### Creating collections ###########"
 
-  db.createCollection('begriffe', { capped: false });
-  db.createCollection('gruppen', { capped: false });
-  db.createCollection('nutzer', { capped: false });
-  db.createCollection('hilfen', { capped: false });
-  db.createCollection('quellen', { capped: false });
+mongo -- "$MONGO_INITDB_DATABASE" <<EOF
+    let MONGO_INITDB_ROOT_USERNAME = '$MONGO_INITDB_ROOT_USERNAME';
+    let MONGO_INITDB_ROOT_PASSWORD = '$MONGO_INITDB_ROOT_PASSWORD';
+    let MONGO_USERNAME = '$MONGO_USERNAME';
+    let MONGO_PASSWORD = '$MONGO_PASSWORD';
+      
+    // Erstelle den Nutzer
+    dbAdmin = db.getSiblingDB("admin");
+    dbAdmin.createUser({
+      user: MONGO_USERNAME,
+      pwd: MONGO_PASSWORD,
+      roles: [{ role: "userAdminAnyDatabase", db: "admin" }],
+      mechanisms: ["SCRAM-SHA-1"],
+    });
+
+    // Authentifiziere mit dem erstellen Nutzer
+    dbAdmin.auth({
+      user: MONGO_USERNAME,
+      pwd: MONGO_PASSWORD,
+      mechanisms: ["SCRAM-SHA-1"],
+      digestPassword: true,
+    });
+
+    // Erstelle die Collections
+    db = new Mongo().getDB("diamat-db");
+    db.createCollection('begriffe', { capped: false });
+    db.createCollection('gruppen', { capped: false });
+    db.createCollection('nutzer', { capped: false });
+    db.createCollection('hilfen', { capped: false });
+    db.createCollection('quellen', { capped: false });
 EOF
 
-# begriffe.json
-# gruppen.json
-# nutzer.json
-# hilfen.json
-# quellen.json
-
-# every of those files (or a directory within those files) need to be mapped as volumes in the mongodb container, so that they are accessable from this script (mongo-init.sh), which gets of course executed in the container.
+echo "########### Importing data into collections ###########"
 
 # Importiere alle Dateien in die Collections
-declare -a data_template_files=("begriffe.json" "gruppen.json" "nutzer.json" "hilfen.json" "quellen.json")
+declare -a data_template_files=("begriffe" "gruppen" "nutzer" "hilfen" "quellen")
 
 for i in "${data_template_files[@]}" 
 do   
-   mongoimport --db diamat-db --collection begriffe --drop --file ~/docker-entrypoint-initdb.d/data/$i --jsonArray
+   mongoimport --jsonArray --db diamat-db --collection $i --file /tmp/data/$i.json
 done
