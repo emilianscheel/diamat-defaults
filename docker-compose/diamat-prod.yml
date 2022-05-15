@@ -5,9 +5,8 @@ services:
   # Dia-Mat starts in production mode
   diamat-prod:
     container_name: 'diamat-prod'
-    depends_on:
-      - mongodb
     image: 'emilianscheel/diamat:latest'
+    restart: always
     env_file:
       - '~/.diamat/1/.env.local'
       - '~/.diamat/1/.env.production.local'

@@ -5,9 +5,8 @@ services:
   # Dia-Mat starts in development mode
   diamat-dev:
     container_name: 'diamat-dev'
-    depends_on:
-      - mongodb
     image: 'emilianscheel/diamat:latest'
+    restart: always
     env_file:
       - '~/.diamat/1/.env.local'
       - '~/.diamat/1/.env.development.local'
