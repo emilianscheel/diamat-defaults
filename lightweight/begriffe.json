@@ -1,0 +1,472 @@
+[{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684be9"
+  },
+  "id": "6e8b13bd-e5ac-4ec2-a831-2007ffd9d17b",
+  "slug": "a-priori",
+  "title": "a priori",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "(lat.) von vornherein, aus sich heraus",
+    "von der Erfahrung unabhängig"
+  ],
+  "is_visible": true,
+  "linked": []
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c49"
+  },
+  "id": "6df13b06-e2c1-49ae-bd64-98c015d2f19b",
+  "slug": "antiautoritarismus",
+  "title": "Antiautoritarismus",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Weltanschauung der kleinbürgerlichrevolutionären [Studenten-]Bewegung, insbesondere in den Jahren nach 1966: Alles, was „von außen“ und „von oben“ kommt, wird abgelehnt, nur eine Praxis „hier und jetzt“ wird anerkannt. „Individuen gegen Abstraktionen“ als antiautoritäre Losung bedeutet Ablehnung des als Klasse organisierten Proletariats und seiner Wissenschaft.",
+    "RW 2, S. 149"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c4a"
+  },
+  "id": "75a2c621-708b-4d71-bfcd-95bcf29da0ad",
+  "slug": "antibiotika",
+  "title": "Antibiotika",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Medikamente, die krankheitserregende Kleinstlebewesen im Körper abtöten antifaschistisch-demokratische Ordnung die politischen Machtverhältnisse nach dem II. Weltkrieg in der Sowjetischen Besatzungszone Deutschlands. Unter Führung der Arbeiterklasse und der KPD/SED wurde die bürgerlich-demokratische Revolution zu Ende geführt: Enteignung der Großgrund-",
+    "besitzer und Aufteilung ihres Landes, Überführung der Monopole und Banken in Staatseigentum, Zerschlagung des faschistischen Staatsapparats, Herstellung der demokratischen Rechte des Volkes und einer demokratischen Kultur.",
+    "RW 20, S. 53/54"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c4b"
+  },
+  "id": "b2e8954c-1045-4ee7-b12c-45c30767dfe3",
+  "slug": "antifaschistische-volksfront",
+  "title": "antifaschistische Volksfront",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Zusammenschluss der in der proletarischen Einheitsfront erfassten Arbeiter und Angestellten mit demokratisch und antifaschistisch eingestellten Teilen des Kleinbürgertums und der Mittelbourgeoisie mit dem Ziel, den Faschismus zu stürzen oder ihn zu verhindern",
+    "RW 20, S. 50–53"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c4c"
+  },
+  "id": "2ec76029-96cd-40ce-a9da-3d1cd0637bcd",
+  "slug": "antik",
+  "title": "antik",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "altertümlich, dem Altertum angehörend"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c4d"
+  },
+  "id": "90f9a464-0f1c-4097-9c99-e0ec363cec2d",
+  "slug": "antimonopolistische-demokratie",
+  "title": "antimonopolistische Demokratie",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Illusion der Revisionisten [z. B. der DKP] von einer Zwischenstufe zwischen Kapitalismus und Sozialismus auf der Basis der bürgerlichen Verfassung, die die „Zurückdrängung der Macht der Monopole“ und einen „friedlichen Übergang zum Sozialismus“ ermöglichen soll",
+    "RW 2, S. 133, RW 20, S. 100–104"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c4e"
+  },
+  "id": "abb982cd-f443-44a4-8122-64b3b4fc95d6",
+  "slug": "antipode",
+  "title": "Antipode",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Mensch, der auf der gegenüberliegenden Seite der Erdkugel lebt, übertragen: jemand mit entgegengesetzter Einstellung antiquiert",
+    "altmodisch, veraltet, nicht zeitgemäß"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c4f"
+  },
+  "id": "701cf57a-836c-42b0-b629-553637ef5da6",
+  "slug": "antiquitäten",
+  "title": "Antiquitäten",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "wertvolle alte Gegenstände, meist Kunstgegenstände"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c50"
+  },
+  "id": "0680a264-010e-4fcd-b8da-58166ef7db9a",
+  "slug": "antithese",
+  "title": "Antithese",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Gegenüberstellung, gegenteilige Behauptung, Gegensatz, Infragestellung"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c51"
+  },
+  "id": "22d4bab7-bd13-41e0-a9e5-39bc3cc68fc1",
+  "slug": "antitoxin",
+  "title": "Antitoxin",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Gegengift, Wirkstoff gegen Giftstoffe von Krankheitserregern"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c52"
+  },
+  "id": "54d95c6f-4593-446d-8228-0ee60cebdbde",
+  "slug": "antizipieren",
+  "title": "antizipieren",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "(lat.) vorwegnehmen"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c53"
+  },
+  "id": "04e5323c-136f-4970-993e-6f3a7b7ea155",
+  "slug": "apart",
+  "title": "apart",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "(veraltet) gesondert, getrennt",
+    "geschmackvoll, reizvoll"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c54"
+  },
+  "id": "85377558-c9e1-4dac-8335-100a17e9f979",
+  "slug": "apartheid",
+  "title": "Apartheid",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "rassistische Trennung der weißen und farbigen Bevölkerung durch Gesetze der herrschenden Klasse"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c55"
+  },
+  "id": "ad401b1e-01e9-4b12-a5a9-c7d5a94b4add",
+  "slug": "apathie",
+  "title": "Apathie",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Teilnahmslosigkeit, Gleichgültigkeit"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c56"
+  },
+  "id": "7bb135f9-dd42-4e6a-9144-94cb77edc4a1",
+  "slug": "apathisch",
+  "title": "apathisch",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "teilnahmslos, unbeteiligt"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c57"
+  },
+  "id": "25621df5-23ab-4ced-8957-8d0788fc8213",
+  "slug": "apologet",
+  "title": "Apologet",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Verfechter, Verteidiger, Sprachrohr [reaktionärer Strömungen]"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c58"
+  },
+  "id": "63420843-1ee6-4a33-bc96-2a135c73222c",
+  "slug": "apologetisch",
+  "title": "apologetisch",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "eine [reaktionäre] Ansicht, Lehre verteidigend, rechtfertigend"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c59"
+  },
+  "id": "0b5df107-f1ee-4989-8cb2-fdbc923c8d09",
+  "slug": "apostel",
+  "title": "Apostel",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "christlich: Jünger Jesu, übertragen: Beauftragter einer Religion"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c5a"
+  },
+  "id": "052868ca-c6a0-45c0-806b-fb6099bd7ba8",
+  "slug": "appell",
+  "title": "Appell",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Aufruf, Mahnruf",
+    "das Antreten von Soldaten zum Befehlsempfang"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c5b"
+  },
+  "id": "b93dec69-a94f-4120-9698-8a2cdfdc410d",
+  "slug": "appellieren",
+  "title": "appellieren",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "anrufen, etwas in Menschen wachrufen ",
+    "Berufung einlegen"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c5c"
+  },
+  "id": "5769b119-4200-46a5-af7d-4556fbefe3d2",
+  "slug": "äquator",
+  "title": "Äquator",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Breitenkreis in der Mitte zwischen Nordund Südpol, Erdumfang"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c5d"
+  },
+  "id": "d915d76c-f673-4f6c-b185-c112428a4226",
+  "slug": "äquivalent",
+  "title": "Äquivalent",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Gegenwert, gleichwertiger Ersatz "
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c5e"
+  },
+  "id": "13ed379c-71b2-423a-a50f-77e117cd1719",
+  "slug": "äquivalent",
+  "title": "äquivalent",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "gleichwertig"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c5f"
+  },
+  "id": "cd4de975-fac8-481c-bb71-037947b608a0",
+  "slug": "äquivalenz",
+  "title": "Äquivalenz",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Gleichwertigkeit"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c60"
+  },
+  "id": "620468d1-949a-470f-bf51-24fa71639ca9",
+  "slug": "ära",
+  "title": "Ära",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Zeitalter, Zeitabschnitt"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c61"
+  },
+  "id": "7abe9a93-3f01-43e6-a1c6-57fc8feb9180",
+  "slug": "arbeiteraristokratie",
+  "title": "Arbeiteraristokratie",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "privilegierte Oberschicht der Arbeiterklasse: mit materiellen Vorteilen korrumpierte Funktionärsschicht in Gewerkschaften und Arbeiterparteien, die ihren Frieden mit dem kapitalistischen System gemacht hat, für Reformen im Kapitalismus und gegen die proletarische Revolution eintritt",
+    "SB 1, S. 91–95"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c62"
+  },
+  "id": "42ca8c7d-e285-4781-9137-d8334bf84058",
+  "slug": "arbeiteroffensive",
+  "title": "Arbeiteroffensive",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "strategischer Schritt im proletarischen Klassenkampf, in dem die Arbeiterklasse zum Angriff auf das kapitalistische Gesellschaftssystem übergeht",
+    "RW 26, S. 141–143"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c63"
+  },
+  "id": "fdc9b587-c1b8-420c-a746-d57244a7a047",
+  "slug": "arbeitsdirektor",
+  "title": "Arbeitsdirektor",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Mitglied des Vorstands von Großunternehmen, wird vom Aufsichtsrat gewählt und ist zuständig für Soziales und das Personalwesen. Der Arbeitsdirektor ist Teil der illusionären Mitbestimmung. Arbeitsintensität",
+    "Anspannung der Arbeitskraft. Steigerung der Arbeitsintensität bedeutet ein Anwachsen der Produktionsmenge infolge erhöhter Anspannung der Arbeitskraft im Lauf eines bestimmten Zeitabschnitts, z. B. eines Arbeitstags, bei unveränderten technischen Mitteln, d. h. durch gesteigertes Arbeitstempo."
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c64"
+  },
+  "id": "67d42844-89bb-4fbc-bb62-08225bb183a4",
+  "slug": "arbeitsproduktivität",
+  "title": "Arbeitsproduktivität",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Ergiebigkeit der Arbeit. Steigerung der Arbeitsproduktivität bedeutet ein Anwachsen der Produktionsmenge, die durch eine bestimmte Menge Arbeit im Lauf einer Arbeitsstunde oder eines Arbeitstags bei durchschnittlicher Anspannung der Arbeitskraft erzeugt wird, d. h. mittels technischer Verbesserungen."
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c65"
+  },
+  "id": "336f2994-2f57-421f-9519-afdfc6f43a9c",
+  "slug": "archiv",
+  "title": "Archiv",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Einrichtung zur systematischen Verwahrung und Nutzung von Dokumenten, z. B. Büchern, Verträgen, Briefen",
+    "Räume, in denen dies geschieht, oder regelmäßige Veröffentlichungen dieser Einrichtungen"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c66"
+  },
+  "id": "ace60da0-c2f9-4266-864d-dd2c662de3ad",
+  "slug": "arena",
+  "title": "Arena",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "im Altertum: Kampfbahn im Stadion, Bühne im Theater und Zirkus",
+    "heute: Schauplatz, Sportplatz "
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c67"
+  },
+  "id": "55498b12-4cc6-457e-9e6f-75b211666b70",
+  "slug": "arisch",
+  "title": "arisch",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "von nordischer Rasse, nicht jüdisch [Begriff der nationalsozialistischen Ideologie] "
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c68"
+  },
+  "id": "2a080152-87df-400a-a5e1-afe4b7f3246b",
+  "slug": "aristokratie",
+  "title": "Aristokratie",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Adelsherrschaft, Adel, Oberschicht "
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c69"
+  },
+  "id": "17d0f557-1517-4eb7-97e3-607631dd2e44",
+  "slug": "aristokratisch",
+  "title": "aristokratisch",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "vornehm, edel, zum Adel gehörend"
+  ],
+  "is_visible": true
+},{
+  "_id": {
+    "$oid": "6222271bb96db4f3fd684c6a"
+  },
+  "id": "8c4f7f4e-963b-4d92-a857-71e7d1ff3ca4",
+  "slug": "arroganz",
+  "title": "Arroganz",
+  "source": "akljfda98dfadf8dfa0sdf8as0df8348",
+  "author": "da465656-8944-4412-82ea-d777b2f55825",
+  "meanings": [
+    "Erscheinungsform der kleinbürgerlichen Denkweise, verachtende Haltung, Verächtlichmachung anderer "
+  ],
+  "is_visible": true
+}]

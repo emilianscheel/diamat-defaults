@@ -1,0 +1,43 @@
+[
+    {
+        "id": "c0f8f4f0-1eab-4294-bcf2-dc94286be262",
+        "mail": "admin@dia-mat.de",
+        "created_at": 1646727925552,
+        "password": "$2b$10$BPfz/NS0hf2WtyJPko5v/uCEiAqZkus1W/pfu8FUw1uXdSiSA/G96",
+        "username": "admin",
+        "verify_token": null,
+        "reset_token": null,
+        "is_verified": true,
+        "groups": [
+            "admin"
+        ],
+        "articles": [],
+        "favorites": []
+    },
+    {
+        "id": "c0f8f4f0-1eab-4294-bcf2-2038sd98sfsd",
+        "mail": "user1@dia-mat.de",
+        "created_at": 1646727925552,
+        "password": "$2b$10$0cudVz9iXZgdZ8pt.e5opu3YidLWA1DOx/hMl2UbpMgFjGhOPixr6",
+        "username": "user1",
+        "verify_token": null,
+        "reset_token": null,
+        "is_verified": true,
+        "groups": [],
+        "articles": [],
+        "favorites": []
+    },
+    {
+        "id": "c0f8f4f0-1eab-4294-bcf2-dcasdfu9239jjl",
+        "mail": "user2@dia-mat.de",
+        "created_at": 1646727925552,
+        "password": "$2b$10$ObaGx7vABBlsL.xi3EQ2eehE9qc116/erl/FMRLS0/GBfx/afUdNm",
+        "username": "user2",
+        "verify_token": null,
+        "reset_token": null,
+        "is_verified": true,
+        "groups": [],
+        "articles": [],
+        "favorites": []
+    }
+]
