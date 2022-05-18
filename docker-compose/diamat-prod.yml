@@ -11,6 +11,6 @@ services:
       - '~/.diamat/1/.env.local'
       - '~/.diamat/1/.env.production.local'
     ports:
-      - "3200:3000"
+      - "3200:3200"
     command: > 
       bash -c "npm run build && npm run start"
