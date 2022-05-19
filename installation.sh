@@ -12,11 +12,17 @@ done
 # Erstelle einen Ordner für die Installation
 BASE=~/.diamat
 
+GITHUB_URL=https://raw.githubusercontent.com/emilianscheel/diamat-defaults/main
+
 mkdir $BASE/
 mkdir $BASE/$NAME/
 mkdir $BASE/$NAME/mongodb-init/
 mkdir $BASE/$NAME/mongodb-init/data/
 mkdir $BASE/$NAME/mongodb/
+
+mkdir $BASE/$NAME/diamat-data/
+mkdir $BASE/$NAME/diamat-data/documents/
+mkdir $BASE/$NAME/diamat-data/templates/
 
 # begriffe.json
 # gruppen.json
@@ -29,11 +35,11 @@ declare -a data_template_files=("begriffe.json" "gruppen.json" "nutzer.json" "hi
 
 for i in "${data_template_files[@]}" 
 do   
-   curl https://raw.githubusercontent.com/emilianscheel/diamat-defaults/main/$TEMPLATE/$i -o $BASE/$NAME/mongodb-init/data/$i
+   curl $GITHUB_URL/$TEMPLATE/$i -o $BASE/$NAME/mongodb-init/data/$i
 done
 
 # Lade die mongo-init.sh
-curl https://raw.githubusercontent.com/emilianscheel/diamat-defaults/main/mongo-init.sh -o $BASE/$NAME/mongodb-init/mongo-init.sh
+curl $GITHUB_URL/mongo-init.sh -o $BASE/$NAME/mongodb-init/mongo-init.sh
 
 
 
@@ -44,7 +50,7 @@ declare -a env_template_files=(".env.local" ".env.development.local" ".env.produ
 
 for i in "${env_template_files[@]}" 
 do   
-   curl https://raw.githubusercontent.com/emilianscheel/diamat-defaults/main/$TEMPLATE/$i -o $BASE/$NAME/$i
+   curl $GITHUB_URL/$TEMPLATE/$i -o $BASE/$NAME/$i
 done
 
 
@@ -55,6 +61,27 @@ declare -a docker_compose_template_files=("diamat-dev.yml" "diamat-prod.yml" "di
 
 for i in "${docker_compose_template_files[@]}" 
 do   
-   curl https://raw.githubusercontent.com/emilianscheel/diamat-defaults/main/docker-compose/$i -o $BASE/$NAME/$i
+   curl $GITHUB_URL/docker-compose/$i -o $BASE/$NAME/$i
+done
+
+
+
+# Lade die Dateien für den diamat-data Ordner
+declare -a diamat_data_documents_files=("datenschutz.html" "impressum.html" "nutzungsbedingungen.html")
+for i in "${diamat_data_documents_files[@]}" 
+do   
+   curl $GITHUB_URL/$TEMPLATE/diamat-data/documents/$i -o $BASE/$NAME/diamat-data/documents/$i
+done
+
+declare -a diamat_data_templates_files=("contact.hjs" "verify.hjs")
+for i in "${diamat_data_templates_files[@]}" 
+do   
+   curl $GITHUB_URL/$TEMPLATE/diamat-data/templates/$i -o $BASE/$NAME/diamat-data/templates/$i
+done
+
+declare -a diamat_data_json_files=("config.json" "logs.json")
+for i in "${diamat_data_json_files[@]}" 
+do   
+   curl $GITHUB_URL/$TEMPLATE/diamat-data/$i -o $BASE/$NAME/diamat-data/$i
 done
 
