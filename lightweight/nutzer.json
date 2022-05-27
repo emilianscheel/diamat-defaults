@@ -8,6 +8,7 @@
         "verify_token": null,
         "reset_token": null,
         "is_verified": true,
+        "is_active": true,
         "groups": [
             "admin"
         ],
@@ -22,6 +23,7 @@
         "username": "user1",
         "verify_token": null,
         "reset_token": null,
+        "is_active": true,
         "is_verified": true,
         "groups": [],
         "articles": [],
@@ -35,6 +37,7 @@
         "username": "user2",
         "verify_token": null,
         "reset_token": null,
+        "is_active": true,
         "is_verified": true,
         "groups": [],
         "articles": [],
